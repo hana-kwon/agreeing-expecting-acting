@@ -1,0 +1,97 @@
+iso3,name,regex
+AFG,Afghanistan,\bafghanistan\b
+AGO,Angola,\bangola\b
+ARE,United Arab Emirates,\bunited\ arab\ emirates\b
+ARG,Argentina,\bargentina\b
+AUS,Australia,\baustralia\b
+BGD,Bangladesh,\bbangladesh\b
+BHR,Bahrain,\bbahrain\b
+BHS,The Bahamas,\bthe\ bahamas\b
+BIH,Bosnia and Herzegovina,\bbosnia\ and\ herzegovina\b
+BOL,Bolivia,\bbolivia\b
+BRA,Brazil,brazil
+BRN,Brunei,\bbrunei\b
+BWA,Botswana,\bbotswana\b
+CAN,Canada,canada|canadian
+CHE,Switzerland,switzerland|swiss
+CHL,Chile,\bchile\b
+CHN,People's Republic of China,china|chinese|beijing|\bxi\b|hong kong
+CIV,Côte d'Ivoire,\bcôte\ d'ivoire\b
+CMR,Cameroon,\bcameroon\b
+COD,Democratic Republic of the Congo,\bdemocratic\ republic\ of\ the\ congo\b
+COL,Colombia,\bcolombia\b
+CRI,Costa Rica,\bcosta\ rica\b
+DOM,Dominican Republic,\bdominican\ republic\b
+DZA,Algeria,\balgeria\b
+ECU,Ecuador,\becuador\b
+EGY,Egypt,\begypt\b
+EUN,European Union,european union|\beu\b|europe|germany|german\b|france|french|italy|spain|netherlands|ireland|belgium|poland|sweden|denmark|austria
+FJI,Fiji,\bfiji\b
+FLK,Falkland Islands,\bfalkland\ islands\b
+GAB,Gabonese Republic,\bgabonese\ republic\b
+GBR,United Kingdom,united kingdom|britain|british|\buk\b|england
+GHA,Ghana,\bghana\b
+GNQ,Equatorial Guinea,\bequatorial\ guinea\b
+GTM,Guatemala,\bguatemala\b
+GUY,Guyana,\bguyana\b
+HND,Honduras,\bhonduras\b
+HTI,Haiti,\bhaiti\b
+IDN,Indonesia,\bindonesia\b
+IND,India,\bindia\b|\bindian\b
+IRQ,Iraq,\biraq\b
+ISL,Iceland,\biceland\b
+ISR,Israel,\bisrael\b
+JOR,Jordan,\bjordan\b
+JPN,Japan,japan|japanese
+KAZ,Kazakhstan,\bkazakhstan\b
+KHM,Cambodia,\bcambodia\b
+KOR,South Korea,south korea|\bkorea\b|korean
+KWT,Kuwait,\bkuwait\b
+LAO,Laos,\blaos\b
+LBY,Libya,\blibya\b
+LIE,Liechtenstein,\bliechtenstein\b
+LKA,Sri Lanka,\bsri\ lanka\b
+LSO,Lesotho,\blesotho\b
+MAR,Morocco,\bmorocco\b
+MDA,Moldova,\bmoldova\b
+MDG,Madagascar,\bmadagascar\b
+MEX,Mexico,mexico|mexican
+MKD,North Macedonia,\bnorth\ macedonia\b
+MMR,Myanmar (Burma),\bmyanmar\b
+MOZ,Mozambique,\bmozambique\b
+MUS,Mauritius,\bmauritius\b
+MWI,Malawi,\bmalawi\b
+MYS,Malaysia,\bmalaysia\b
+NAM,Namibia,\bnamibia\b
+NGA,Nigeria,\bnigeria\b
+NIC,Nicaragua,\bnicaragua\b
+NOR,Norway,\bnorway\b
+NRU,Nauru,\bnauru\b
+NZL,New Zealand,\bnew\ zealand\b
+OMN,Oman,\boman\b
+PAK,Pakistan,\bpakistan\b
+PER,Peru,\bperu\b
+PHL,The Philippines,\bthe\ philippines\b
+PNG,Papua New Guinea,\bpapua\ new\ guinea\b
+QAT,Qatar,\bqatar\b
+RUS,Russia,russia
+SAU,Saudi Arabia,\bsaudi\ arabia\b
+SGP,Singapore,\bsingapore\b
+SLV,El Salvador,\bel\ salvador\b
+SRB,Serbia,\bserbia\b
+SYR,Syria,\bsyria\b
+TCD,Chad,\bchad\b
+THA,Thailand,\bthailand\b
+TTO,Trinidad and Tobago,\btrinidad\ and\ tobago\b
+TUN,Tunisia,\btunisia\b
+TUR,T[uuml]rkiye,turkey\b|türkiye
+TWN,Taiwan,taiwan
+UGA,Uganda,\buganda\b
+UKR,Ukraine,\bukraine\b
+URY,Uruguay,\buruguay\b
+VEN,Venezuela,\bvenezuela\b
+VNM,Vietnam,vietnam
+VUT,Vanuatu,\bvanuatu\b
+ZAF,South Africa,south africa
+ZMB,Zambia,\bzambia\b
+ZWE,Zimbabwe,\bzimbabwe\b

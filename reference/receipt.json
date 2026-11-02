@@ -1,0 +1,140 @@
+{
+ "started": "2026-11-01 22:15:01 EST",
+ "python": "3.14.6",
+ "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+ "options": {
+  "rerun_nli": false
+ },
+ "packages": {
+  "pandas": "3.1.0",
+  "numpy": "2.5.4",
+  "statsmodels": "0.15.0",
+  "matplotlib": "3.11.2",
+  "torch": null,
+  "transformers": null
+ },
+ "inputs": {
+  "config/questions.json": "d945d5c6d1f7da15a048c5b6e98d687f85916a609bff6c22b81ce89744fa7915",
+  "data/cache/measure_nli_scores_deberta.csv": "e0ff0d44a74e48dd2b735fa97e9bef5fbfe4b3db08a5a0857b02a806a9a32347",
+  "data/inputs_manifest.json": "df9809a5076638e03b3982666dd0ba923422ba3980e248c9f0ed594b672e5e75",
+  "data/public/china_additional_duty_steps.csv": "200b00a1182f8b72f90524d6a4dfbafeb1ca047109d538e6be62526df9674dc9",
+  "data/public/public_tariff_statements.csv": "607fbf669e6da5a5e37a9224b322bd7684bca9b070541b9d1541d634dcb89a81",
+  "data/public/tariff_calendar/01_fr_documents_261101.parquet": "5130510339284200d150327e14675b4ac90fccf9399639c9ae81673eb40004cb",
+  "data/public/tariff_calendar/03_actions_261101.csv": "93de4f67d7b0c86baf26455f722cf691b7563be80a66031724aa9e1e12997a09",
+  "data/public/tariff_calendar/03_country_events_261101.csv": "fd618a8cc8a12bb8f6ac96c215a2f1470412242f12e32fb3e02c13ae8d8e5231",
+  "data/public/tariff_calendar/corrected/01_change_log_261101.csv": "7014329320fad701834f4263f1772bf193cc35071faec76ec72c935b79d27cab",
+  "data/public/tariff_calendar/corrected/02_actions_A_listed.csv": "294426fcdd7865c8f1c129b30083221a41ea4e46a5f8da6c10c1249c0fdf63c7",
+  "data/public/tariff_calendar/corrected/02_actions_B_extended.csv": "237522b1ce628224d7c9cea9098e55c20dec1dfd7643141fd2434ebc3fa14c23",
+  "data/public/tariff_calendar/corrected/02_actions_C_inferred.csv": "237522b1ce628224d7c9cea9098e55c20dec1dfd7643141fd2434ebc3fa14c23",
+  "data/public/tariff_calendar/corrected/02_actions_orig_repro.csv": "7c4384402d1f05c6fd78092e3976cf5e9e1d87c39ecf82b4f228c27dba64cf41",
+  "data/public/tariff_calendar/corrected/02_change_rows_A_listed.csv": "a12e174de142b334951be9e3e191e82ce9e45e9f68b07dd12aa946db4d2e61bf",
+  "data/public/tariff_calendar/corrected/02_change_rows_B_extended.csv": "7218bb23cbd44237caf56b576905f417c2226f6163044102197314f0a6b5dbd6",
+  "data/public/tariff_calendar/corrected/02_change_rows_C_inferred.csv": "9b896b93381b0e1792087bf316cdbeea7dea37c9d4e71ff036e17dad62f2268b",
+  "data/public/tariff_calendar/corrected/02_change_rows_orig_repro.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "data/public/tariff_calendar/corrected/02_country_events_A_listed.csv": "c7aa7678e33d5ab909b6240912dfff51c0368df29c866dbc143cb17914ed5001",
+  "data/public/tariff_calendar/corrected/02_country_events_B_extended.csv": "abc8638dd7bbf174c3171a359e067cde3de0c82cd501ea9f9f59c0b20455ccb3",
+  "data/public/tariff_calendar/corrected/02_country_events_C_inferred.csv": "3c5251d0e9ae7399245007367f0672da57fecb54bf8e0fc5e055450b27b6494d",
+  "data/public/tariff_calendar/corrected/02_country_events_orig_repro.csv": "30e20606b4fce7746e9415e3e581b1aa95ecd0ccb0bf9f43c3428f08e9115280",
+  "data/public/tariff_calendar/corrected/02_increase_events_A_listed.csv": "e4553c93f1d065ce1482199fb68fc9f3b25dca77fcfe785e05728d456292ff4b",
+  "data/public/tariff_calendar/corrected/02_increase_events_B_extended.csv": "aec5272caa90ebb96744893f5f59d335d0da0c1b1bec1225900fa37df305b7d2",
+  "data/public/tariff_calendar/corrected/02_increase_events_C_inferred.csv": "c8352b87eef10c03cf7df699b00568c77d46be159d1cfc395bc56c77f226dcbc",
+  "data/public/tariff_calendar/corrected/02_increase_events_orig_repro.csv": "9bbb05fd254af6f8589379ffbbdfc73e777310099271a628603a33a3c05b7bd5",
+  "data/public/tariff_calendar/country_list_261101.csv": "81d432cf4aa4af81d8126ef9c84000514d3cecdcc7552c929722e6b9d2c670d6",
+  "data/public/tirade-v1.5-rate-statements.csv": "2b77c5f0092faa70065c8aa28b7299e356df273771f8693b13b05bdf4a4c7558"
+ },
+ "steps": [
+  {
+   "step": "01_select_passages.py",
+   "seconds": 0.5,
+   "returncode": 0,
+   "stdout_tail": "{'broad_path': 1315, 'china_path': 313}\n"
+  },
+  {
+   "step": "02_score_passages.py",
+   "seconds": 0.4,
+   "returncode": 0,
+   "stdout_tail": "used cached scores for 1628 passage-questions (MoritzLaurer/deberta-v3-large-zeroshot-v2.0, reference run)\n"
+  },
+  {
+   "step": "03_aggregate_measure.py",
+   "seconds": 0.5,
+   "returncode": 0,
+   "stdout_tail": "{'broad_path': 593, 'china_path': 181} events with evidence\n"
+  },
+  {
+   "step": "04_forecast_check.py",
+   "seconds": 0.5,
+   "returncode": 0,
+   "stdout_tail": " version  windows  calls  accuracy  no_change_accuracy_same_windows  share_calls_up\noriginal      250    188     0.176                            0.473           0.968\n revised      250    114     0.246                            0.351           1.000\n"
+  },
+  {
+   "step": "05_tirade_benchmark.py",
+   "seconds": 0.7,
+   "returncode": 0,
+   "stdout_tail": "TiRADE rows linked: 303 ({'text': 227, 'post_id': 76}); passages compared: 98\n          tirade  passages  share_scored_future\n    future claim        42                0.810\nin force or past        56                0.411\n"
+  },
+  {
+   "step": "06_synthetic_survey.py",
+   "seconds": 0.5,
+   "returncode": 0,
+   "stdout_tail": "                                               analysis wave            group   n  estimate   se\n        share expecting a year-end tariff above today's   W6 higher agreement 209     0.589  NaN\n        share expecting a year-end tariff above today's   W6  lower agreement 191     0.628  NaN\ninformation effect on the year-end expectation (points)   W4 higher agreement 195     3.630 0.74\ninformation effect on the year-end expectation (points)   W4  lower agreement 205     3.220 0.88\n"
+  },
+  {
+   "step": "07_figure.py",
+   "seconds": 1.8,
+   "returncode": 0,
+   "stdout_tail": "figure written\n"
+  },
+  {
+   "step": "30_tariff_calendar.py",
+   "seconds": 50.9,
+   "returncode": 0,
+   "stdout_tail": "orig_repro inc events 246 | short_lived 64 | cancelled 0 | y cells 589 | y_5_8 NaN 0 | y_9_12 NaN 0 | change rows 0\nA_listed inc events 242 | short_lived 62 | cancelled 4 | y cells 575 | y_5_8 NaN 288 | y_9_12 NaN 672 | change rows 16\nB_extended inc events 235 | short_lived 59 | cancelled 4 | y cells 566 | y_5_8 NaN 288 | y_9_12 NaN 672 | change rows 27\nC_inferred inc events 216 | short_lived 59 | cancelled 4 | y cells 490 | y_5_8 NaN 288 | y_9_12 NaN 672 | change rows 46\n"
+  },
+  {
+   "step": "31_independent_events.py",
+   "seconds": 0.7,
+   "returncode": 0,
+   "stdout_tail": "                     0.250000\n30  C_inferred            increase_group_MEX               5                    1       1                 1                        0                 2.0                 2.0                  2.0  2025-03-04                               0.500000\n31  C_inferred            increase_group_CHN              17                    1       3                 3                        1                 6.0                 6.0                  6.0  2025-02-04                               0.166667\n32  C_inferred             increase_group_EU               8                    1       2                 2                        1                 2.0                 2.0                  2.0  2025-03-12                               0.500000\n33  C_inferred            increase_group_EAX              80                   13      20                 3                        5                 3.0                 3.0                 20.0  2025-08-07                               0.600000\n34  C_inferred           increase_China_only              17                    1       3                 3                        1                 6.0                 6.0                  6.0  2025-02-04                               0.166667\n35  C_inferred    reduction_pause_China_only               8                    1       2                 2                        1                 NaN                 NaN                  NaN         NaN                                    NaN\n"
+  }
+ ],
+ "outputs": {
+  "01_selected.csv": "21210fe15ac0a7b6c011d8f3e2a8ead84c6a90079e0ede2fe51765b07e915969",
+  "02_scores.csv": "e0ff0d44a74e48dd2b735fa97e9bef5fbfe4b3db08a5a0857b02a806a9a32347",
+  "03_event_measure.csv": "f1598936afed8baf277675147117923bd3eef2f08b06e448e3a4538137edc756",
+  "03_weekly_shares.csv": "c3a8390ab7cf3e116a88531418f6c4a290d31e9f7dfb08bad3a4f84944f22d76",
+  "04_forecast_metrics.csv": "9fb08221b2c39773b5d48e58e847af62fde084e467fb8e2a43d9ec6abfb77e54",
+  "04_forecast_windows.csv": "166680fcb3281be450363e49bfc4e2853be238c6b2d2748a1b5b40460c527b43",
+  "04_window_shares.csv": "bae5d3dc6832c9ee9268968008fda2b00ec734db738079f6123dd8b50e8155d2",
+  "05_tirade_benchmark.csv": "e3a2ee29f8efdc9bcf4220ec2b4f547ea1fe138b9b54132543472158fd2cdc43",
+  "05_tirade_links.csv": "3d249addce62ac965eaeb074b52efb3fbcc26d82839408bffa127e16465a2538",
+  "06_synthetic_respondents.csv": "47a9f0550a5fe8dca3a407e8a6a54ff8db004febc4802015d49d969687844d03",
+  "06_synthetic_results.csv": "dd3b73c19e2f95653c73377688e6f640c33ec793eb7c2cdf53019678103ffa2d",
+  "07_figure.png": "d4e61154590206b6b7d6f3fc9e8d6b74191a50e7727d22368e494ff24806fca0",
+  "07_figure_data.csv": "180a6c0f064bb0633f1eaf512d5893d953aa50abcde1992778007fc608ba46c5",
+  "30_calendar_A_listed/02_actions_A_listed.csv": "294426fcdd7865c8f1c129b30083221a41ea4e46a5f8da6c10c1249c0fdf63c7",
+  "30_calendar_A_listed/02_change_rows_A_listed.csv": "a12e174de142b334951be9e3e191e82ce9e45e9f68b07dd12aa946db4d2e61bf",
+  "30_calendar_A_listed/02_country_events_A_listed.csv": "c7aa7678e33d5ab909b6240912dfff51c0368df29c866dbc143cb17914ed5001",
+  "30_calendar_A_listed/02_increase_events_A_listed.csv": "e4553c93f1d065ce1482199fb68fc9f3b25dca77fcfe785e05728d456292ff4b",
+  "30_calendar_A_listed/02_panel_A_listed.csv": "b6bb530af3598c80f25626711c31ab7de25a331ae24e8da877df473c70865487",
+  "30_calendar_B_extended/02_actions_B_extended.csv": "237522b1ce628224d7c9cea9098e55c20dec1dfd7643141fd2434ebc3fa14c23",
+  "30_calendar_B_extended/02_change_rows_B_extended.csv": "7218bb23cbd44237caf56b576905f417c2226f6163044102197314f0a6b5dbd6",
+  "30_calendar_B_extended/02_country_events_B_extended.csv": "abc8638dd7bbf174c3171a359e067cde3de0c82cd501ea9f9f59c0b20455ccb3",
+  "30_calendar_B_extended/02_increase_events_B_extended.csv": "aec5272caa90ebb96744893f5f59d335d0da0c1b1bec1225900fa37df305b7d2",
+  "30_calendar_B_extended/02_panel_B_extended.csv": "d8385ae401f6aa159efd7cb4162da6d8c7c9a3b14bdbc2280173d5819a723002",
+  "30_calendar_C_inferred/02_actions_C_inferred.csv": "237522b1ce628224d7c9cea9098e55c20dec1dfd7643141fd2434ebc3fa14c23",
+  "30_calendar_C_inferred/02_change_rows_C_inferred.csv": "9b896b93381b0e1792087bf316cdbeea7dea37c9d4e71ff036e17dad62f2268b",
+  "30_calendar_C_inferred/02_country_events_C_inferred.csv": "3c5251d0e9ae7399245007367f0672da57fecb54bf8e0fc5e055450b27b6494d",
+  "30_calendar_C_inferred/02_increase_events_C_inferred.csv": "c8352b87eef10c03cf7df699b00568c77d46be159d1cfc395bc56c77f226dcbc",
+  "30_calendar_C_inferred/02_panel_C_inferred.csv": "33499614ecac60fbc481dcae46a8e8a8a6436c135f2052284346dcb0e52ee73f",
+  "30_calendar_orig_repro/02_actions_orig_repro.csv": "7c4384402d1f05c6fd78092e3976cf5e9e1d87c39ecf82b4f228c27dba64cf41",
+  "30_calendar_orig_repro/02_change_rows_orig_repro.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "30_calendar_orig_repro/02_country_events_orig_repro.csv": "30e20606b4fce7746e9415e3e581b1aa95ecd0ccb0bf9f43c3428f08e9115280",
+  "30_calendar_orig_repro/02_increase_events_orig_repro.csv": "9bbb05fd254af6f8589379ffbbdfc73e777310099271a628603a33a3c05b7bd5",
+  "30_calendar_orig_repro/02_panel_orig_repro.csv": "0d9dda4180d8c93b66fe333a33bc6eb6bd04d3904d063d9dd5faa7b7026dc768",
+  "31_independent_events.csv": "d85b92753c346cc7a755a4a7c8bb6c0a313400fc42ec1cbf177375a84445a458",
+  "run_options.json": "4c0285597a06806259889c24858f326859b0a121ed0d4240f4d7629b3295d9de"
+ },
+ "finished": "2026-11-01 22:15:58 EST",
+ "seconds_total": 56.5
+}

@@ -1,0 +1,3 @@
+year,cohort_n,april_china_firms,no_may_china_firms,resumed_july_china_firms,fraction_interrupted,fraction_resumed_among_interrupted,first_observed_spring_nonchina_firms,same_origin_reobserved_july_firms,first_observed_spring_pairs,same_pairs_reobserved_july,origin_persistence_fraction
+2024,72672,26510,6765,2762,0.2551867219917012,0.4082779009608278,5274,782,6324,832,0.14827455441789913
+2025,77399,26255,10449,4474,0.39798133688821175,0.4281749449708106,5384,936,6394,1011,0.1738484398216939

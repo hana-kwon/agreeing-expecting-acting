@@ -1,0 +1,29 @@
+{
+  "_note": "Each question is asked of every selected passage as natural language inference hypotheses. 'evidence' gates whether the passage addresses the question; 'options' are the answer choices of the tariff-path question; 'timing' separates claims about a change that has not yet taken effect from descriptions of rates in force or past actions (the revised measure).",
+  "china_path": {
+    "scope_regex": "china|chinese|\\bxi\\b|beijing",
+    "evidence": "The text is about U.S. tariffs on goods from China.",
+    "options": {
+      "higher": "The text says U.S. tariffs on goods from China are being raised or newly imposed.",
+      "lower": "The text says U.S. tariffs on goods from China are being lowered, paused, or removed.",
+      "same": "The text says U.S. tariffs on goods from China will stay at their current level."
+    },
+    "timing": {
+      "future": "The speaker announces, threatens, or plans a new or changed tariff on China that has not yet taken effect.",
+      "in_force_or_past": "The speaker describes a tariff on China that is already in effect or that was imposed in the past."
+    }
+  },
+  "broad_path": {
+    "scope_regex": "",
+    "evidence": "The text is about U.S. tariffs on imports from most or all countries.",
+    "options": {
+      "higher": "The text says U.S. tariffs on imports from most or all countries are being raised or newly imposed.",
+      "lower": "The text says U.S. tariffs on imports from most or all countries are being lowered, paused, or removed.",
+      "same": "The text says U.S. tariffs on imports from most or all countries will stay at their current level."
+    },
+    "timing": {
+      "future": "The speaker announces, threatens, or plans a new or changed tariff on imports from most or all countries that has not yet taken effect.",
+      "in_force_or_past": "The speaker describes a tariff on imports from most or all countries that is already in effect or that was imposed in the past."
+    }
+  }
+}

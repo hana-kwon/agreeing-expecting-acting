@@ -1,0 +1,25 @@
+{
+ "note": "Agreement of the prototype classifier with the stored Jev answers on the same public passages (aggregates only).",
+ "china_path": {
+  "passages": 313,
+  "evidence_agreement": 0.633,
+  "nli_evidence": 236,
+  "jev_evidence": 135,
+  "both_evidence": 128,
+  "direction_compared": 128,
+  "direction_agreement": 0.828,
+  "jev_higher_share": 0.828,
+  "nli_higher_share": 0.844
+ },
+ "broad_path": {
+  "passages": 1315,
+  "evidence_agreement": 0.478,
+  "nli_evidence": 988,
+  "jev_evidence": 356,
+  "both_evidence": 329,
+  "direction_compared": 329,
+  "direction_agreement": 0.781,
+  "jev_higher_share": 0.875,
+  "nli_higher_share": 0.784
+ }
+}

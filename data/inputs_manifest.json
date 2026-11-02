@@ -1,0 +1,134 @@
+{
+ "files": {
+  "config/questions.json": {
+   "sha256": "d945d5c6d1f7da15a048c5b6e98d687f85916a609bff6c22b81ce89744fa7915",
+   "rows": null,
+   "bytes": 1973
+  },
+  "data/cache/measure_nli_scores_deberta.csv": {
+   "sha256": "e0ff0d44a74e48dd2b735fa97e9bef5fbfe4b3db08a5a0857b02a806a9a32347",
+   "rows": 1628,
+   "bytes": 127067
+  },
+  "data/public/china_additional_duty_steps.csv": {
+   "sha256": "200b00a1182f8b72f90524d6a4dfbafeb1ca047109d538e6be62526df9674dc9",
+   "rows": 10,
+   "bytes": 3307
+  },
+  "data/public/public_tariff_statements.csv": {
+   "sha256": "607fbf669e6da5a5e37a9224b322bd7684bca9b070541b9d1541d634dcb89a81",
+   "rows": 1315,
+   "bytes": 1945584
+  },
+  "data/public/tariff_calendar/01_fr_documents_261101.parquet": {
+   "sha256": "5130510339284200d150327e14675b4ac90fccf9399639c9ae81673eb40004cb",
+   "rows": 239,
+   "bytes": 1691345
+  },
+  "data/public/tariff_calendar/03_actions_261101.csv": {
+   "sha256": "93de4f67d7b0c86baf26455f722cf691b7563be80a66031724aa9e1e12997a09",
+   "rows": 169,
+   "bytes": 181134
+  },
+  "data/public/tariff_calendar/03_country_events_261101.csv": {
+   "sha256": "fd618a8cc8a12bb8f6ac96c215a2f1470412242f12e32fb3e02c13ae8d8e5231",
+   "rows": 368,
+   "bytes": 15815
+  },
+  "data/public/tariff_calendar/corrected/01_change_log_261101.csv": {
+   "sha256": "7014329320fad701834f4263f1772bf193cc35071faec76ec72c935b79d27cab",
+   "rows": 46,
+   "bytes": 29349
+  },
+  "data/public/tariff_calendar/corrected/02_actions_A_listed.csv": {
+   "sha256": "294426fcdd7865c8f1c129b30083221a41ea4e46a5f8da6c10c1249c0fdf63c7",
+   "rows": 170,
+   "bytes": 186154
+  },
+  "data/public/tariff_calendar/corrected/02_actions_B_extended.csv": {
+   "sha256": "237522b1ce628224d7c9cea9098e55c20dec1dfd7643141fd2434ebc3fa14c23",
+   "rows": 170,
+   "bytes": 186154
+  },
+  "data/public/tariff_calendar/corrected/02_actions_C_inferred.csv": {
+   "sha256": "237522b1ce628224d7c9cea9098e55c20dec1dfd7643141fd2434ebc3fa14c23",
+   "rows": 170,
+   "bytes": 186154
+  },
+  "data/public/tariff_calendar/corrected/02_actions_orig_repro.csv": {
+   "sha256": "7c4384402d1f05c6fd78092e3976cf5e9e1d87c39ecf82b4f228c27dba64cf41",
+   "rows": 169,
+   "bytes": 184765
+  },
+  "data/public/tariff_calendar/corrected/02_change_rows_A_listed.csv": {
+   "sha256": "a12e174de142b334951be9e3e191e82ce9e45e9f68b07dd12aa946db4d2e61bf",
+   "rows": 16,
+   "bytes": 8558
+  },
+  "data/public/tariff_calendar/corrected/02_change_rows_B_extended.csv": {
+   "sha256": "7218bb23cbd44237caf56b576905f417c2226f6163044102197314f0a6b5dbd6",
+   "rows": 27,
+   "bytes": 14716
+  },
+  "data/public/tariff_calendar/corrected/02_change_rows_C_inferred.csv": {
+   "sha256": "9b896b93381b0e1792087bf316cdbeea7dea37c9d4e71ff036e17dad62f2268b",
+   "rows": 46,
+   "bytes": 27824
+  },
+  "data/public/tariff_calendar/corrected/02_change_rows_orig_repro.csv": {
+   "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+   "rows": 0,
+   "bytes": 1
+  },
+  "data/public/tariff_calendar/corrected/02_country_events_A_listed.csv": {
+   "sha256": "c7aa7678e33d5ab909b6240912dfff51c0368df29c866dbc143cb17914ed5001",
+   "rows": 366,
+   "bytes": 23913
+  },
+  "data/public/tariff_calendar/corrected/02_country_events_B_extended.csv": {
+   "sha256": "abc8638dd7bbf174c3171a359e067cde3de0c82cd501ea9f9f59c0b20455ccb3",
+   "rows": 360,
+   "bytes": 23522
+  },
+  "data/public/tariff_calendar/corrected/02_country_events_C_inferred.csv": {
+   "sha256": "3c5251d0e9ae7399245007367f0672da57fecb54bf8e0fc5e055450b27b6494d",
+   "rows": 341,
+   "bytes": 22351
+  },
+  "data/public/tariff_calendar/corrected/02_country_events_orig_repro.csv": {
+   "sha256": "30e20606b4fce7746e9415e3e581b1aa95ecd0ccb0bf9f43c3428f08e9115280",
+   "rows": 368,
+   "bytes": 24049
+  },
+  "data/public/tariff_calendar/corrected/02_increase_events_A_listed.csv": {
+   "sha256": "e4553c93f1d065ce1482199fb68fc9f3b25dca77fcfe785e05728d456292ff4b",
+   "rows": 242,
+   "bytes": 217349
+  },
+  "data/public/tariff_calendar/corrected/02_increase_events_B_extended.csv": {
+   "sha256": "aec5272caa90ebb96744893f5f59d335d0da0c1b1bec1225900fa37df305b7d2",
+   "rows": 235,
+   "bytes": 209221
+  },
+  "data/public/tariff_calendar/corrected/02_increase_events_C_inferred.csv": {
+   "sha256": "c8352b87eef10c03cf7df699b00568c77d46be159d1cfc395bc56c77f226dcbc",
+   "rows": 216,
+   "bytes": 179151
+  },
+  "data/public/tariff_calendar/corrected/02_increase_events_orig_repro.csv": {
+   "sha256": "9bbb05fd254af6f8589379ffbbdfc73e777310099271a628603a33a3c05b7bd5",
+   "rows": 246,
+   "bytes": 219801
+  },
+  "data/public/tariff_calendar/country_list_261101.csv": {
+   "sha256": "81d432cf4aa4af81d8126ef9c84000514d3cecdcc7552c929722e6b9d2c670d6",
+   "rows": 96,
+   "bytes": 2926
+  },
+  "data/public/tirade-v1.5-rate-statements.csv": {
+   "sha256": "2b77c5f0092faa70065c8aa28b7299e356df273771f8693b13b05bdf4a4c7558",
+   "rows": 749,
+   "bytes": 483247
+  }
+ }
+}
