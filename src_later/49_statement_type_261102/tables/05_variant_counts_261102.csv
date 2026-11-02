@@ -1,0 +1,15 @@
+variant,question,events,days,sum_ev
+base,china,450,267,316.99
+base,broad,918,433,532.69
+thrint,china,266,186,193.16
+thrint,broad,494,286,304.74
+decision,china,38,27,27.93
+decision,broad,100,59,60.33
+specific,china,244,164,191.44
+specific,broad,388,236,229.25
+inforce,china,87,62,59.01
+inforce,broad,173,112,93.6
+future3,china,291,193,213.17
+future3,broad,548,297,340.43
+specific_future3,china,197,145,153.37
+specific_future3,broad,337,212,198.27

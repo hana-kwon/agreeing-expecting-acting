@@ -1,0 +1,11 @@
+signal,spec,coef,se,n,n_firms,placebo,note
+path_china,A_china_x_signal_allDIME_6group,0.116442,0.01702926,540548,6186,not run,6 origin-group FE; placebo and Rep interaction abandoned for time (about 100 s per fit at load 40); replaced by 2-group version
+dur_broad,A_china_x_signal_allDIME_6group,0.009784056,0.01111887,540548,6186,not run,6 origin-group FE; placebo and Rep interaction abandoned for time (about 100 s per fit at load 40); replaced by 2-group version
+path_broad,A_china_x_signal_allDIME_6group,-0.02018169,0.01627325,550986,6200,not run,6 origin-group FE; placebo and Rep interaction abandoned for time (about 100 s per fit at load 40); replaced by 2-group version
+F1_china,A_china_x_signal_allDIME_6group,0.09470106,0.01682793,540548,6186,not run,6 origin-group FE; placebo and Rep interaction abandoned for time (about 100 s per fit at load 40); replaced by 2-group version
+F2_china,A_china_x_signal_allDIME_6group,0.09730723,0.01666246,540548,6186,not run,6 origin-group FE; placebo and Rep interaction abandoned for time (about 100 s per fit at load 40); replaced by 2-group version
+F3_china,A_china_x_signal_allDIME_6group,0.1252201,0.01636916,540548,6186,not run,6 origin-group FE; placebo and Rep interaction abandoned for time (about 100 s per fit at load 40); replaced by 2-group version
+F1_broad,A_china_x_signal_allDIME_6group,-0.02502937,0.01723941,550986,6200,not run,6 origin-group FE; placebo and Rep interaction abandoned for time (about 100 s per fit at load 40); replaced by 2-group version
+F2_broad,A_china_x_signal_allDIME_6group,-0.02213066,0.0167957,550986,6200,not run,6 origin-group FE; placebo and Rep interaction abandoned for time (about 100 s per fit at load 40); replaced by 2-group version
+F3_broad,A_china_x_signal_allDIME_6group,-0.06978468,0.01385286,550986,6200,not run,6 origin-group FE; placebo and Rep interaction abandoned for time (about 100 s per fit at load 40); replaced by 2-group version
+dur_china,A_china_x_signal_allDIME_6group,0.05662192,0.009167417,527988,6164,not run,6 origin-group FE; placebo and Rep interaction abandoned for time (about 100 s per fit at load 40); replaced by 2-group version

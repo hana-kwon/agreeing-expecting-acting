@@ -1,0 +1,3 @@
+variant,signal,n_days,n_evid,n_E,n_OE,n_acts,n_words,n_ann_broad_inc,n_ann_china_inc,n_ann_china_dec,thr_S
+all,china,685,27,3,24,1,2,12,6,3,0.9285714285714287
+all,broad,685,56,6,50,4,2,12,6,3,0.9577464788732396

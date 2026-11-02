@@ -1,0 +1,35 @@
+spec,y,term,coef,se,n
+B0_period_dummies_only,done_pp,imp,1.6821191980067893,0.34819324823757075,2895
+B0_period_dummies_only,done_pp,imp_x_late,1.55433817645197,0.5431724727260616,2895
+B0_period_dummies_only,done_pp,imp_x_mid,-0.48704475672112024,0.521751471844694,2895
+B0_period_dummies_only,done_pp,late,-0.31146793691587776,0.5937366346437414,2895
+B0_period_dummies_only,done_pp,mid,-1.0207699887095765,2.172310730264342,2895
+B1_days_common_slope+importer_x_period,done_pp,imp,1.6825954476647915,0.34831045873399935,2895
+B1_days_common_slope+importer_x_period,done_pp,imp_x_late,1.5435461030697342,0.5435943015641386,2895
+B1_days_common_slope+importer_x_period,done_pp,imp_x_mid,-0.48649820208518174,0.5218292846942852,2895
+B1_days_common_slope+importer_x_period,done_pp,days,-0.003121815775617097,0.009512212947950894,2895
+B2_days+importer_specific_slope,done_pp,imp,1.9255497234707488,1.0238252088735236,2895
+B2_days+importer_specific_slope,done_pp,imp_x_late,2.0347405387939723,2.015435861733924,2895
+B2_days+importer_specific_slope,done_pp,imp_x_mid,-0.3983007479271321,0.6307443400494311,2895
+B2_days+importer_specific_slope,done_pp,days,-0.0007639219492279275,0.009838079533997455,2895
+B2_days+importer_specific_slope,done_pp,imp_x_days,-0.004586873306236368,0.01801015043953472,2895
+B3_linear_only (no period dummies),done_pp,imp,0.6687556096043439,0.48418737016638835,2895
+B3_linear_only (no period dummies),done_pp,days,-0.011025850890339261,0.009490163746462867,2895
+B3_linear_only (no period dummies),done_pp,imp_x_days,0.01469923621824483,0.0047732524872858275,2895
+B0_period_dummies_only,done_any,imp,17.364513317149115,2.7022882019011654,2895
+B0_period_dummies_only,done_any,imp_x_late,11.716043045305769,3.9328059560207214,2895
+B0_period_dummies_only,done_any,imp_x_mid,-6.119515129690136,3.9928234909663236,2895
+B0_period_dummies_only,done_any,late,-1.6697616872376684,4.500026533844936,2895
+B0_period_dummies_only,done_any,mid,5.092619410919998,15.740127134450429,2895
+B1_days_common_slope+importer_x_period,done_any,imp,17.36913350063213,2.7029121209652796,2895
+B1_days_common_slope+importer_x_period,done_any,imp_x_late,11.611347202798086,3.945440445079735,2895
+B1_days_common_slope+importer_x_period,done_any,imp_x_mid,-6.114212904986854,3.993609476227408,2895
+B1_days_common_slope+importer_x_period,done_any,days,-0.03028529562450434,0.06468995823373352,2895
+B2_days+importer_specific_slope,done_any,imp,13.60965443058867,7.185380653084964,2895
+B2_days+importer_specific_slope,done_any,imp_x_late,4.010595191739342,13.832458464523878,2895
+B2_days+importer_specific_slope,done_any,imp_x_mid,-7.478981982781863,4.672991787824831,2895
+B2_days+importer_specific_slope,done_any,days,-0.06677138939790364,0.08348615822294525,2895
+B2_days+importer_specific_slope,done_any,imp_x_days,0.07097736450425618,0.12491540668227766,2895
+B3_linear_only (no period dummies),done_any,imp,7.799009457471586,3.647768159624678,2895
+B3_linear_only (no period dummies),done_any,days,-0.0964320080211708,0.06494831250880005,2895
+B3_linear_only (no period dummies),done_any,imp_x_days,0.12413729131987014,0.03484540871726978,2895

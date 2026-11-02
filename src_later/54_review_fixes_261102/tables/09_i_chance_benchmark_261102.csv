@@ -1,0 +1,2 @@
+n_tests,n_pass_rule,n_placebo_le_10_any_sign,chance_rate_per_test_rule,expected_pass_by_chance,binomial_tail_P_ge_observed_independent,expected_any_sign,binomial_tail_any_sign,note
+172,18,29,0.05,8.6,0.0025954850257706836,17.2,0.0036618840589562242,"independence assumed; tests are correlated variants of few signals, so the tail probability is optimistic (too small)"

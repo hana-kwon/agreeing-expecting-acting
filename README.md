@@ -85,3 +85,7 @@ The repository contains no author names, institution names or personal paths, an
 - Truth Social posts: public archive at github.com/stiles/trump-truth-social-archive (CC0-1.0), continued from ix.cnn.io/data/truth-social/truth_archive.json. Presidential statements: Compilation of Presidential Documents (govinfo.gov, U.S. government works).
 - Federal Register documents: federalregister.gov (U.S. government works).
 - Public classifier: `MoritzLaurer/deberta-v3-large-zeroshot-v2.0` (MIT; Laurer, van Atteveldt, Casas, and Welbers 2023, arXiv:2312.17543).
+
+## Later analyses
+
+`src_later/` holds code and aggregate tables for the later exploratory analyses in appendix A9. See `src_later/README.md`.

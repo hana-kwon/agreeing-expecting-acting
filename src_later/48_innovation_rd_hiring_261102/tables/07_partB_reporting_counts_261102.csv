@@ -1,0 +1,8 @@
+item,value
+importer-linked US-dollar firm-quarters 2023Q1-2025Q4,26337
+gvkeys in that sample,2277
+gvkeys with any non-missing xrdq,1410
+gvkeys with xrdq > 0 in any quarter,1200
+gvkeys with xrdq in all 12 quarters,895
+firm-quarters with xrdq non-missing,13143
+firm-quarters with xrdq > 0 and saleq > 0,10542

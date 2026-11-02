@@ -1,0 +1,6 @@
+family,tests,with_estimate,nominal_hits,with_placebo,placebo_hits,expected_placebo_hits_at_5pct
+census_c5,10,10,0,10,0,0.5
+market,2184,2121,268,2121,136,106.0
+retail,728,654,195,332,10,16.6
+survey,84,84,29,84,5,4.2
+TOTAL,3006,2869,492,2547,151,127.4

@@ -1,0 +1,14 @@
+statement_type,all_selected,china_sel,broad_sel,panel,measure,n,n_future,n_inforce,future_detected,false_future_in_force,accuracy,label
+decision_announcement,182.0,54.0,173.0,a_counts,,,,,,,,
+not_about_tariffs,204.0,42.0,168.0,a_counts,,,,,,,,
+past_action,221.0,171.0,107.0,a_counts,,,,,,,,
+in_force_description,288.0,118.0,245.0,a_counts,,,,,,,,
+stated_intention_future,626.0,241.0,576.0,a_counts,,,,,,,,
+threat_or_possible_future,639.0,306.0,548.0,a_counts,,,,,,,,
+opinion_or_justification,937.0,176.0,884.0,a_counts,,,,,,,,
+,,,,b_validation,orig_jev,115.0,45.0,70.0,19.0,24.0,0.565,Original Jev
+,,,,b_validation,nli,115.0,45.0,70.0,38.0,52.0,0.487,Public NLI classifier
+,,,,b_validation,haiku_prev,115.0,45.0,70.0,23.0,17.0,0.661,Earlier Haiku (10-30)
+,,,,b_validation,new_a_future3,115.0,45.0,70.0,39.0,37.0,0.626,Typology: any future type
+,,,,b_validation,new_b_threat_intent,115.0,45.0,70.0,15.0,23.0,0.539,Typology: threat/intention only
+,,,,b_validation,new_c_any_future3,115.0,45.0,70.0,39.0,38.0,0.617,Typology: any future in all_types

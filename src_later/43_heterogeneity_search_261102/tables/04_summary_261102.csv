@@ -1,0 +1,11 @@
+group,n_tests,placebo_le_10_any_sign,with_prestated_sign,passes_rule,chance_expected_at_10pct
+all,172,29,162,18,17.2
+H1,18,6,18,6,1.8
+H2,48,6,48,0,4.8
+H3,12,0,12,0,1.2
+H4,36,11,36,11,3.6
+H4_H5_avg,10,0,0,0,1.0
+H5,36,4,36,0,3.6
+H5_cmp_path,12,2,12,1,1.2
+customs,22,0,12,0,2.2
+survey,150,29,150,18,15.0

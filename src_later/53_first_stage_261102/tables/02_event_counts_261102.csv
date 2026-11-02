@@ -1,0 +1,7 @@
+outcome,positive_country_bins,countries_with_event,countries_with_any_event_in_window_set,bins_with_event_any_country
+O1_eff_incr,673,92,92,21
+O2_signing,578,74,74,16
+O3_tir_threat,157,13,14,39
+O3_tir_announce,219,30,30,36
+O3_tir_implement,704,74,74,39
+O3_tir_any,897,77,78,39

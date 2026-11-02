@@ -1,0 +1,7 @@
+measure,n,n_future,n_inforce,future_detected,false_future_in_force,accuracy
+orig_jev,115,45,70,19,24,0.565
+nli,115,45,70,38,52,0.487
+haiku_prev,115,45,70,23,17,0.661
+new_a_future3,115,45,70,39,37,0.626
+new_b_threat_intent,115,45,70,15,23,0.539
+new_c_any_future3,115,45,70,39,38,0.617

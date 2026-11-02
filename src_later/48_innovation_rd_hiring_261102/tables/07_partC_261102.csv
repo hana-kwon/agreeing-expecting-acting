@@ -1,0 +1,10 @@
+part,id,outcome,spec,sample,n_obs,n_units,coef,se,p
+C,C_rdint_Hexp_sectorquarter,rdint_w(t+1),FE: sector^quarter,SEC firms matched to Compustat,1104,185,-0.660397551929323,0.956941629861038,0.490992855282291
+C,C_rdint_Last_sectorquarter,rdint_w(t+1),FE: sector^quarter,SEC firms matched to Compustat,1104,185,-1.30265910164364,1.11659532150014,0.244867635115559
+C,C_rdint_Hexp_firmsectorquarter,rdint_w(t+1),FE: firm + sector^quarter,SEC firms matched to Compustat,1098,179,0.0159113197449922,0.151993479252326,0.91674424414439
+C,C_rdint_Last_firmsectorquarter,rdint_w(t+1),FE: firm + sector^quarter,SEC firms matched to Compustat,1098,179,0.272433710399524,0.243654265919885,0.26502424889493
+C,C_rdint_HexpXcs,rdint_w(t+1),Hexp x cs (cs absorbed by firm FE),"matched, exposure available",963,160,0.31344527054552,0.294861268913436,0.289381878506401
+C,C_postRD_Hexp_sectorquarter,RD posting share(t+1),FE: sector^quarter,SEC firms with Revelio rcid in bridge extract,206,43,-2.54966122483573,4.06755465330567,0.534163986005679
+C,C_postRD_Last_sectorquarter,RD posting share(t+1),FE: sector^quarter,SEC firms with Revelio rcid in bridge extract,206,43,-10.5187495093975,7.79040014218325,0.184177175074909
+C,C_postRD_Hexp_firmsectorquarter,RD posting share(t+1),FE: firm + sector^quarter,SEC firms with Revelio rcid in bridge extract,206,43,0.634946478413296,1.23580511319886,0.61009025696575
+C,C_postRD_Last_firmsectorquarter,RD posting share(t+1),FE: firm + sector^quarter,SEC firms with Revelio rcid in bridge extract,206,43,0.666082708416644,1.31399491963877,0.614866225579795

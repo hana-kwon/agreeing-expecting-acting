@@ -1,0 +1,38 @@
+item,day,value
+"SPY daily return % (adjclose, close-to-close)",2025-04-08,-1.5786669848558255
+"SPY daily return % (adjclose, close-to-close)",2025-04-09,9.986266590672521
+"SPY daily return % (adjclose, close-to-close)",2025-04-10,-4.480790335678009
+SPY two-day window return % (Apr 8 close to Apr 10 close),t=2025-04-09,5.505476254994512
+"XRT daily return % (adjclose, close-to-close)",2025-04-08,-3.822322214706375
+"XRT daily return % (adjclose, close-to-close)",2025-04-09,8.971794101660358
+"XRT daily return % (adjclose, close-to-close)",2025-04-10,-2.791037404485941
+XRT two-day window return % (Apr 8 close to Apr 10 close),t=2025-04-09,6.180756697174417
+"FXI daily return % (adjclose, close-to-close)",2025-04-08,-1.3760973680286614
+"FXI daily return % (adjclose, close-to-close)",2025-04-09,6.824911717774063
+"FXI daily return % (adjclose, close-to-close)",2025-04-10,-0.3795099340779373
+FXI two-day window return % (Apr 8 close to Apr 10 close),t=2025-04-09,6.445401783696125
+"MCHI daily return % (adjclose, close-to-close)",2025-04-08,-1.7101888274733579
+"MCHI daily return % (adjclose, close-to-close)",2025-04-09,6.091081825808065
+"MCHI daily return % (adjclose, close-to-close)",2025-04-10,-0.1666098797693305
+MCHI two-day window return % (Apr 8 close to Apr 10 close),t=2025-04-09,5.924471946038734
+FRED SP500 daily % change (check),2025-04-09,9.515390034057347
+VIX close change (points),2025-04-09,-18.71
+VIX close Apr 8 / Apr 9 / Apr 10,,52.33 / 33.62 / 40.72
+china path: S_t on 2025-04-09,,0.9285714285714287
+china path: evidence mass (sum ev) on 2025-04-09,,1.4
+china path: percentile of S_t among evidence days,,0.9259259259259259
+china path: escalation day? (top decile),,True
+china path: acts (increase effective within 30 days)?,,True
+china path: threshold S for top decile,,0.9234285714285715
+announcement day of type china_inc?,2025-04-09,True
+announcement day of type broad_inc?,2025-04-09,True
+announcement day of type china_dec?,2025-04-09,False
+broad path: S_t on 2025-04-09,,0.1473684210526316
+broad path: evidence mass (sum ev) on 2025-04-09,,0.9500000000000001
+broad path: percentile of S_t among evidence days,,0.25
+broad path: escalation day? (top decile),,False
+broad path: acts (increase effective within 30 days)?,,False
+broad path: threshold S for top decile,,0.9574446680080484
+announcement day of type china_inc?,2025-04-09,True
+announcement day of type broad_inc?,2025-04-09,True
+announcement day of type china_dec?,2025-04-09,False
