@@ -1,0 +1,4 @@
+test,n_hs2,spearman,spearman_se,wls_slope,slope_se
+adjusted drop (May) vs share of drop recovered by Jul-Aug (drop>5% only),35,0.2913165266106443,0.18191414735545716,-1.6423100266109154,2.353118815839113
+"adjusted drop vs gain of other origins, 2025 minus 2023-24 (share of China-area base)",39,0.3263157894736842,0.15992063089520514,10.200462008624546,5.951130424803997
+adjusted drop vs 2026-08 level relative to Mar-Apr 2025 (÷ 2024-08/Mar-Apr 2023),39,-0.5969635627530364,0.14063022613248685,-1.4933075831435232,0.19937108602900272

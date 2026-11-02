@@ -2,7 +2,7 @@
 # START DATE   : 2026-10-29
 # CODE RUN DATE: 2026-10-31
 # TIME TAKEN   : under a minute for the default demo (cached model outputs) on a laptop CPU
-# DESCRIPTION  : Runs the public-data pipeline in order: measurement of the leader's statements (steps 01-07) and the
+# DESCRIPTION  : Runs the public-data pipeline in order: measurement of the leader's statements (steps 01-07), estimates on the synthetic owner survey (step 08) and the
 #                corrected Federal Register tariff calendar (30-31). Refuses to write into a non-empty run folder.
 #                Writes receipt.json with the SHA-256 of every input and output, package versions, options and the time of each step.
 # INPUT FILES  : config/*.json, data/public/*, data/cache/*
@@ -28,7 +28,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 # Default run: measurement of the leader's statements and the corrected tariff calendar, all on public data.
 STEPS = ["01_select_passages.py", "02_score_passages.py", "03_aggregate_measure.py", "04_forecast_check.py",
-         "05_tirade_benchmark.py", "06_synthetic_survey.py", "07_figure.py",
+         "05_tirade_benchmark.py", "06_synthetic_survey.py", "07_figure.py", "08_synthetic_survey_estimates.py",
          "30_tariff_calendar.py", "31_independent_events.py"]
 
 

@@ -1,0 +1,34 @@
+{
+ "source_inputs": {
+  "typesafe_choice_v3_results/results.jsonl": "928dbe657cb03925a16e570b2c75145c6863791e1cf2c99b952c73470f180ed2",
+  "passage_occurrences.parquet": "817abff4769921afb9a6c8836ee81e9485bf6ab057a3e1f17b8b66c9fa2a220e",
+  "simple_time_series_v1/event_question_option_probabilities.parquet": "e4f570ad2d60556cd107b1b3dde2bb4b48dd0712772cb5f3f2e47c47270ac1d4"
+ },
+ "outputs": {
+  "event_question_option_probabilities.parquet": {
+   "sha256": "492d4a88684208112ff9eeca1696b5e1feb0ab7e02af2153edabff042537202c",
+   "rows": 52570
+  },
+  "passage_scores.parquet": {
+   "sha256": "0e41c8f52110a74bdbb86df53bc5d4dcb58650ac838cd57c3eaa74a27994ddc4",
+   "rows": 6021945
+  },
+  "passages.parquet": {
+   "sha256": "cd8c79222cd2661ed98511fcbc906ab1ba13c5cb33142a2220d8ad3942827e1f",
+   "rows": 45738
+  }
+ },
+ "scored_passages": 44607,
+ "models": [
+  "jev-1.13.0"
+ ],
+ "occurrences_by_source": {
+  "govinfo_cpd": 20013,
+  "factbase": 14985,
+  "truth_social_stiles": 10740
+ },
+ "text_released_for": [
+  "govinfo_cpd",
+  "truth_social_stiles"
+ ]
+}

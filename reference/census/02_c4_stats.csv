@@ -1,0 +1,5 @@
+outcome,group,diff_mean,se,n_months,n_unit_months
+out,threat_later_implemented,-0.08394622905894897,0.09549339988923522,10,45
+out,threat_not_implemented,-0.070700363396324,0.0995498089061532,15,102
+adj,threat_later_implemented,-0.03333809820345023,0.08064684600960877,10,45
+adj,threat_not_implemented,-0.008156304352856728,0.038112726295541216,15,102

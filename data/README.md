@@ -1,6 +1,6 @@
 # Data
 
-Everything in `public/` and `cache/` can be redistributed. Nothing in this folder is respondent-level survey data, customs data, output of the proprietary classifier, or text from sources that do not permit redistribution. `inputs_manifest.json` records the SHA-256 and row count of every file in `public/` and `cache/` and of `config/*.json`.
+Everything in `public/` and `cache/` can be redistributed. Nothing in this folder is respondent-level survey data (`synthetic_survey/` holds generated rows only), customs data, output of the proprietary classifier, or text from sources that do not permit redistribution. `inputs_manifest.json` records the SHA-256 and row count of every file in `public/` and `cache/` and of `config/*.json`.
 
 ## public/
 
@@ -17,7 +17,7 @@ Everything in `public/` and `cache/` can be redistributed. Nothing in this folde
 
 ## synthetic_survey/
 
-Placeholder only (see its README). No synthetic data file is included.
+`synthetic_survey_w4_us_v2_1_copy1.csv` to `copy5.csv` are five statistical synthetic copies of the wave-4 U.S. owner survey (generated rows only, coarsened and locally suppressed background traits, no identifiers, exact dates or free text), `codebook.csv` lists its variables, and its README describes how it was made, what it can and cannot show, and the disclosure steps. It is not respondent-level survey data; the original stays private.
 
 ## cache/
 
