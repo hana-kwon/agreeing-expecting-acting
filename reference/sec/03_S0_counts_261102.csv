@@ -1,0 +1,10 @@
+item,value
+firms_in_coded_subset,239.0
+firms_sample_total,239.0
+filings_analysis_window_in_subset,2235.0
+filings_with_>=1_tariff_passage,1790.0
+filings_with_>=1_NEW_coded_passage,1249.0
+NEW_passages_coded,4946.0
+future_or_both_passages,2756.0
+future_possibility_only,2115.0
+future_possibility_only_share,0.7674165457184325
