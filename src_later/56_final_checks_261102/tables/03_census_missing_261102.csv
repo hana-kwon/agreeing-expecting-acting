@@ -1,0 +1,14 @@
+,value
+cells,4859.0
+cell_months,116616.0
+absent_cell_months,11123.0
+recorded_zero,12595.0
+share_cells_with_any_absent,0.2673389586334637
+share_2025_value_in_cells_with_any_absent,0.000752350759592447
+median_mean_monthly_value_cells_with_absent,670.9166666666666
+median_mean_monthly_value_recorded,772620.7916666666
+country_months_compared,2928.0
+share_hs2_sum_equals_total_within_0_1pct,0.9982923497267759
+min_ratio,1.0
+max_ratio,1.0
+value_ratio_overall,1.0
